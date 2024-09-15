@@ -1,6 +1,6 @@
 # Calculadora de Gorjeta
 
-O projeto é uma calculadora de gorjeta simples e responsiva, projetada para ajudar a calcular o valor da gorjeta com base no valor da conta, a qualidade do serviço e o número de pessoas compartilhando a conta. Adicionamos também a funcionalidade de aplicar um desconto para pagamentos em dinheiro ou Pix.
+O projeto é uma calculadora de gorjeta simples e responsiva, projetada para ajudar a calcular o valor da gorjeta com base no valor da conta, a qualidade do serviço e o número de pessoas compartilhando a conta. Adicionei também a funcionalidade de aplicar um desconto para pagamentos em dinheiro ou Pix.
 
 ## Funcionalidades
 
