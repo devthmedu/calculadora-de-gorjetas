@@ -1,0 +1,129 @@
+/* Importa a fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background: url('./img/backgrund.svg') no-repeat center center fixed; /* Altere para o caminho da sua imagem */
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 350px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+h1 {
+    background-color: #00524b;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.wrapper {
+    padding: 0;
+}
+
+input,
+select {
+    width: calc(100% - 20px);
+    border: none;
+    border-bottom: 2px solid #00524b;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+    border-bottom: 2px solid #00524b;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    background-color: #00524b;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #3d9970;
+    transform: translateY(-2px);
+}
+
+.tip {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    display: none;
+    padding: 20px;
+    color: #555;
+}
+
+.tip span {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    color: #0074d9;
+}
+
+.tip #each {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .wrapper {
+        padding: 15px;
+    }
+
+    input,
+    select {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .tip {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .tip span {
+        font-size: 28px;
+    }
+
+    .tip #each {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorjeta</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script type="text/javascript" src="./src/script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="./src/img/calculadora.svg" >
+</head>
+
+<body>
+    <div class="container">
+        <h1><i class="fas fa-calculator"></i> Calculadora de Gorjeta</h1>
+        <div class="wrapper">
+            <p><i class="fas fa-receipt"></i> Valor da Conta</p>
+            <input type="text" id="amount" placeholder="Valor a ser pago"> <span>$</span>
+            <p><i class="fas fa-star"></i> Como foi o serviço?</p>
+            <select id="services">
+                <option selected disabled hidden>Selecione</option>
+                <option value="0.25">25% - Excelente</option>
+                <option value="0.20">20% - Muito Bom</option>
+                <option value="0.15">15% - Bom</option>
+                <option value="0.10">10% - Regular</option>
+                <option value="0.05">5% - Ruim</option>
+            </select>
+            <p><i class="fas fa-users"></i> Número Total de Pessoas</p>
+            <input type="text" id="persons" placeholder="Número de pessoas compartilhando a conta">
+            <p><i class="fas fa-money-bill-wave"></i> Método de Pagamento</p>
+            <select id="payment-method">
+                <option selected disabled hidden>Selecione</option>
+                <option value="none">Dinheiro</option>
+                <option value="pix">PIX</option>
+                <option value="other">Outros</option>
+            </select>
+            <button id="calculate"><i class="fas fa-calculator"></i> Calcular</button>
+        </div>
+
+        <div class="tip">
+            <p>Valor da Gorjeta</p>
+            <span id="total">0</span> <span>$</span>
+            <span id="each">por pessoa</span>
+        </div>
+    </div>
+</body>
+
+</html>
