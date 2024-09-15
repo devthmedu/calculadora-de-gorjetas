@@ -1,7 +1,3 @@
-Aqui está um exemplo de `README.md` para o projeto da calculadora de gorjeta, cobrindo a instalação, uso e detalhes do projeto:
-
----
-
 # Calculadora de Gorjeta
 
 Este projeto é uma calculadora de gorjeta simples e responsiva, projetada para ajudar a calcular o valor da gorjeta com base no valor da conta, a qualidade do serviço e o número de pessoas compartilhando a conta. Adicionamos também a funcionalidade de aplicar um desconto para pagamentos em dinheiro ou Pix.
