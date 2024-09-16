@@ -1,5 +1,8 @@
 # Calculadora de Gorjeta
 
+![5](https://github.com/user-attachments/assets/75c4ddec-5c15-4c32-bd84-fc18f0d4ac7a)
+
+
 O projeto é uma calculadora de gorjeta simples e responsiva, projetada para ajudar a calcular o valor da gorjeta com base no valor da conta, a qualidade do serviço e o número de pessoas compartilhando a conta. Adicionei também a funcionalidade de aplicar um desconto para pagamentos em dinheiro ou Pix.
 
 ## Funcionalidades
